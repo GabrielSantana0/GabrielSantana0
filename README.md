@@ -5,9 +5,9 @@
 ## <br/>
 ![image](https://aleen42.github.io/badges/src/koenigsegg.svg)
 ## <br/>
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=GabrielSantana&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats) 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=GabrielSantana0&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats) 
 <br/>
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GabrielSantana&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GabrielSantana0&layout=compact)
 
 <!--
 **GabrielSantana0/GabrielSantana0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
