@@ -1,4 +1,4 @@
-## Olá me chamo GabrielSantana, e estou estudando desenvolvimento em: 
+## Olá me chamo Gabrielsantana, e estou estudando desenvolvimento em: 
 ![image](https://github.com/user-attachments/assets/fd411b0e-0ed7-4580-840c-e804c430b46f)
 <br/>
 ![image](https://github.com/user-attachments/assets/e1f94d8d-381d-48d7-b773-3eecff0b0669)
