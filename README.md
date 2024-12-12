@@ -3,7 +3,7 @@
 <br/>
 ![image](https://github.com/user-attachments/assets/e1f94d8d-381d-48d7-b773-3eecff0b0669)
 ## <br/>
-![image](https://aleen42.github.io/badges/src/koenigsegg.svg)
+![image](https://aleen42.github.io/badges/src/koenigsegg.svg),[image](https://aleen42.github.io/badges/src/ferrari.svg)
 ## <br/>
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=GabrielSantana0&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats) 
 <br/>
