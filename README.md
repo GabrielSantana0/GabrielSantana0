@@ -11,7 +11,6 @@
 
 <img align="right" height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzYwZmE1Zm94MHN6aTd6djlkdjFxZ2x6Nmh3ajNic2V5enFtZ2p2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41m359K5ExF8aRoc/giphy.webp"  />
 
-<hr>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
