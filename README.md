@@ -8,7 +8,7 @@
 
 #
 
-<p align="center">Olá me chamo Gabriel santana, e estou estudando desenvolvimento em linguagens FRONT-END.
+<p align="center">Atualmente estou estudando desenvolvimento em linguagens FRONT-END.
   
 #
 
