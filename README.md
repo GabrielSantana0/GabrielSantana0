@@ -12,7 +12,7 @@
   
 #
 
-<img align="right" alt="" height="190px" src="./src/study.gif">
+<img align="right" height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzYwZmE1Zm94MHN6aTd6djlkdjFxZ2x6Nmh3ajNic2V5enFtZ2p2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41m359K5ExF8aRoc/giphy.webp"  />
 
 <h3 align="left">Connect with me!</h3>
 
