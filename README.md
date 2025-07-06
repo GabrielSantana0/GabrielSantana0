@@ -1,12 +1,5 @@
-<div align="center">
-  <a href="https://git.io/typing-svg align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=4c73cf&center=true&vCenter=true&random=false&width=524&lines=Olá, me chamo Gabriel santana!" alt="Typing SVG">
-  </a>
-</div>
 
-#
-
-<p align="center">Atualmente estou estudando desenvolvimento em linguagens FRONT-END.
+<p align="center">Oi sou o gabriel, atualmente estou estudando desenvolvimento em linguagens FRONT-END.
   
 #
 
