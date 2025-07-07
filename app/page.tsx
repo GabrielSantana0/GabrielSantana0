@@ -18,20 +18,41 @@ import {
   User,
   Briefcase,
   Heart,
-  Menu,
-  X,
 } from "lucide-react"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { ContactForm } from "@/components/contact-form"
+import { MobileMenu } from "@/components/mobile-menu"
 
 export default function Portfolio() {
   const { toast } = useToast()
   const [showErrorDialog, setShowErrorDialog] = useState(false)
   const [errorMessage, setErrorMessage] = useState("")
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [activeSection, setActiveSection] = useState("home")
 
-  useEffect(() => {}, [])
+  useEffect(() => {
+    // Scroll spy para destacar seção ativa
+    const handleScroll = () => {
+      const sections = ["home", "about", "skills", "projects", "contact"]
+      const scrollPosition = window.scrollY + 100
+
+      for (const section of sections) {
+        const element = document.getElementById(section)
+        if (element) {
+          const offsetTop = element.offsetTop
+          const offsetHeight = element.offsetHeight
+
+          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+            setActiveSection(section)
+            break
+          }
+        }
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
 
   // Função para scroll suave
   const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
@@ -46,8 +67,6 @@ export default function Portfolio() {
         behavior: "smooth",
       })
     }
-    // Fechar menu mobile após clique
-    setMobileMenuOpen(false)
   }
 
   const skills = [
@@ -98,103 +117,45 @@ export default function Portfolio() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex justify-center items-center py-4">
             <div className="flex space-x-8 lg:space-x-12">
-              <a
-                href="#home"
-                onClick={(e) => handleSmoothScroll(e, "home")}
-                className="relative text-white hover:text-purple-400 transition-colors py-2 px-1 group cursor-pointer"
-              >
-                Início
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-purple-500 transform scale-x-100 group-hover:scale-x-110 transition-transform"></span>
-              </a>
-              <a
-                href="#about"
-                onClick={(e) => handleSmoothScroll(e, "about")}
-                className="relative text-gray-300 hover:text-purple-400 transition-colors py-2 px-1 group cursor-pointer"
-              >
-                Sobre
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-purple-500 transform scale-x-0 group-hover:scale-x-100 transition-transform"></span>
-              </a>
-              <a
-                href="#skills"
-                onClick={(e) => handleSmoothScroll(e, "skills")}
-                className="relative text-gray-300 hover:text-purple-400 transition-colors py-2 px-1 group cursor-pointer"
-              >
-                Habilidades
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-purple-500 transform scale-x-0 group-hover:scale-x-100 transition-transform"></span>
-              </a>
-              <a
-                href="#projects"
-                onClick={(e) => handleSmoothScroll(e, "projects")}
-                className="relative text-gray-300 hover:text-purple-400 transition-colors py-2 px-1 group cursor-pointer"
-              >
-                Projetos
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-purple-500 transform scale-x-0 group-hover:scale-x-100 transition-transform"></span>
-              </a>
-              <a
-                href="#contact"
-                onClick={(e) => handleSmoothScroll(e, "contact")}
-                className="relative text-gray-300 hover:text-purple-400 transition-colors py-2 px-1 group cursor-pointer"
-              >
-                Contato
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-purple-500 transform scale-x-0 group-hover:scale-x-100 transition-transform"></span>
-              </a>
+              {[
+                { id: "home", label: "Início" },
+                { id: "about", label: "Sobre" },
+                { id: "skills", label: "Habilidades" },
+                { id: "projects", label: "Projetos" },
+                { id: "contact", label: "Contato" },
+              ].map((item) => (
+                <a
+                  key={item.id}
+                  href={`#${item.id}`}
+                  onClick={(e) => handleSmoothScroll(e, item.id)}
+                  className={`relative transition-colors py-2 px-1 group cursor-pointer ${
+                    activeSection === item.id ? "text-white" : "text-gray-300 hover:text-purple-400"
+                  }`}
+                >
+                  {item.label}
+                  <span
+                    className={`absolute bottom-0 left-0 w-full h-0.5 bg-purple-500 transform transition-transform ${
+                      activeSection === item.id ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
+                    }`}
+                  ></span>
+                </a>
+              ))}
             </div>
           </div>
 
           {/* Mobile Navigation */}
           <div className="md:hidden flex justify-between items-center py-4">
-            <div className="text-white font-bold text-lg">Gabriel Santana</div>
-            <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="text-white hover:text-purple-400 transition-colors p-2"
-              aria-label="Toggle menu"
-            >
-              {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </button>
-          </div>
-
-          {/* Mobile Menu */}
-          {mobileMenuOpen && (
-            <div className="md:hidden absolute top-full left-0 w-full bg-gray-900/98 backdrop-blur-md border-b border-purple-800/30">
-              <div className="flex flex-col space-y-1 p-4">
-                <a
-                  href="#home"
-                  onClick={(e) => handleSmoothScroll(e, "home")}
-                  className="text-white hover:text-purple-400 transition-colors py-3 px-2 border-b border-gray-800 cursor-pointer"
-                >
-                  Início
-                </a>
-                <a
-                  href="#about"
-                  onClick={(e) => handleSmoothScroll(e, "about")}
-                  className="text-gray-300 hover:text-purple-400 transition-colors py-3 px-2 border-b border-gray-800 cursor-pointer"
-                >
-                  Sobre
-                </a>
-                <a
-                  href="#skills"
-                  onClick={(e) => handleSmoothScroll(e, "skills")}
-                  className="text-gray-300 hover:text-purple-400 transition-colors py-3 px-2 border-b border-gray-800 cursor-pointer"
-                >
-                  Habilidades
-                </a>
-                <a
-                  href="#projects"
-                  onClick={(e) => handleSmoothScroll(e, "projects")}
-                  className="text-gray-300 hover:text-purple-400 transition-colors py-3 px-2 border-b border-gray-800 cursor-pointer"
-                >
-                  Projetos
-                </a>
-                <a
-                  href="#contact"
-                  onClick={(e) => handleSmoothScroll(e, "contact")}
-                  className="text-gray-300 hover:text-purple-400 transition-colors py-3 px-2 cursor-pointer"
-                >
-                  Contato
-                </a>
+            <div className="flex items-center space-x-3">
+              <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-700 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-sm">GS</span>
+              </div>
+              <div>
+                <div className="text-white font-bold text-lg leading-none">Gabriel Santana</div>
+                <div className="text-purple-300 text-xs">Full Stack Developer</div>
               </div>
             </div>
-          )}
+            <MobileMenu onNavigate={handleSmoothScroll} />
+          </div>
         </div>
       </nav>
 
