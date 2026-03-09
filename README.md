@@ -1,5 +1,5 @@
 
-<p align="center">Oi sou o gabriel, atualmente estou estudando desenvolvimento em linguagens FRONT-END.
+<p align="center">Oi sou o gabriel, atualmente estou estudando desenvolvimento em linguagens BACK-END.
   
 #
 
