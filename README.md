@@ -1,53 +1,51 @@
 <div align="center">
 
-  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=FF00F6&center=true&vCenter=true&width=500&lines=Ol%C3%A1%2C+eu+sou+o+Gabriel+%F0%9F%91%8B;Desenvolvedor+Back-End)
+# Gabriel Santana
 
-</div>
+**Desenvolvedor Back-End**
 
-<img align="right" height="160" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzYwZmE1Zm94MHN6aTd6djlkdjFxZ2x6Nmh3ajNic2V5enFtZ2p2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41m359K5ExF8aRoc/giphy.webp" />
-
-```yaml
-name: Gabriel Santana
-current_focus: Back-End Development
-studying: Node.js | TypeScript | APIs
-learning_every_day: true
-```
-
----
-
-<h3 align="left">Connect with me!</h3>
-
-<div align="left">
-
-[![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=FF00F6&color:FFF)](###)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=FF00F6&color:FFF)](###)
-[![Instagram](https://img.shields.io/badge/-Instagram-000?style=for-the-badge&logo=instagram&logoColor=FF00F6&color:FFF)](###)
+[![E-mail](https://img.shields.io/badge/Email-0A0A0A?style=flat-square&logo=microsoft-outlook&logoColor=FF00F6)](###)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0A0A?style=flat-square&logo=linkedin&logoColor=FF00F6)](###)
+[![Instagram](https://img.shields.io/badge/Instagram-0A0A0A?style=flat-square&logo=instagram&logoColor=FF00F6)](###)
 
 </div>
 
 ---
 
-<h3 align="left">My Stack ~</h3>
+### Sobre mim
+
+Desenvolvedor focado em **Back-End** com paixão por construir APIs robustas e sistemas escaláveis. Atualmente estudando e aprimorando minhas habilidades em Node.js, TypeScript e bancos de dados relacionais. Busco sempre escrever codigo limpo, bem estruturado e following boas praticas de desenvolvimento.
+
+- Estudando **Node.js**, **TypeScript** e **PostgreSQL**
+- Focado em arquitetura de APIs RESTful
+- Sempre aprendendo algo novo
+
+---
+
+### Tecnologias
 
 <div align="left">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="35" alt="html5 logo" />
-<img width="10" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="35" alt="css3 logo" />
-<img width="10" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="40" alt="tailwindcss logo" />
-<img width="10" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="35" alt="javascript logo" />
-<img width="10" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="35" alt="typescript logo" />
-<img width="10" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="35" alt="nodejs logo" />
-<img width="10" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="35" alt="express logo" />
-<img width="10" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="35" alt="postgresql logo" />
-<img width="10" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="35" alt="git logo" />
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+---
+
+### GitHub Stats
+
+<div align="center">
+
+![Gabriel's GitHub stats](https://github-readme-stats.vercel.app/api?username=GabrielSantana0&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&icon_color=FF00F6&title_color=FF00F6&text_color=c9d1d9&ring_color=FF00F6)
+![Gabriel's Streak](https://github-readme-streak-stats.herokuapp.com/?user=GabrielSantana0&theme=github-dark-blue&hide_border=true&ring=FF00F6&fire=FF00F6&currStreakLabel=FF00F6&sideLabels=c9d1d9&dates=c9d1d9&background=0d1117)
 
 </div>
 
@@ -55,7 +53,14 @@ learning_every_day: true
 
 <div align="center">
 
-  ![Gabriel's GitHub stats](https://github-readme-stats.vercel.app/api?username=GabrielSantana0&show_icons=true&theme=dark&hide_border=true&bg_color=000&icon_color=FF00F6&title_color=FF00F6&text_color=FFF)
-  ![Gabriel's Streak](https://github-readme-streak-stats.herokuapp.com/?user=GabrielSantana0&theme=dark&background=000&ring=FF00F6&fire=FF00F6&currStreakLabel=FF00F6&sideLabels=FFF&dates=FFF)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GabrielSantana0&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=FF00F6&text_color=c9d1d9)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=GabrielSantana0&color=FF00F6&style=flat-square&label=PROFILE+VIEWS" />
 
 </div>
