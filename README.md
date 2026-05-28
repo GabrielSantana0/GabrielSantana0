@@ -97,7 +97,7 @@ console.log(`> Connecting with ${developer.🆔}...`);
 <img src="https://skillicons.dev/icons?i=nodejs,express,ts,java,postgres&perline=7" />
 
 ### 🧰 Tools & Deploy
-<img src="https://skillicons.dev/icons?i=git,github,vscode,insomnia,vercel&perline=7" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,vercel&perline=7" />
 
 </div>
 
@@ -147,6 +147,9 @@ $ gabriel --connect
 ```
 
 <p align="center">
+<a href="###" target="_blank">
+<img src="https://img.shields.io/badge/-PORTFOLIO-0d1117?style=for-the-badge&logo=vercel&logoColor=ff00f6&labelColor=0d1117" />
+</a>
 <a href="mailto:###">
 <img src="https://img.shields.io/badge/-EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=ff00f6&labelColor=0d1117" />
 </a>
