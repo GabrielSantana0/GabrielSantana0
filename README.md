@@ -30,6 +30,7 @@
 <!-- ABOUT ME - DOSSIER                              -->
 <!-- =============================================== -->
 <h2 align="center">
+  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
   CLASSIFIED FILE: GABRIEL_SANTANA.dat
 </h2>
 
@@ -64,21 +65,16 @@ console.log(`> Connecting with ${developer.🆔}...`);
 </td>
 <td width="45%" align="center">
 
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" />
+
+<br>
+
 ```diff
 + 🎯 Focus: Back-End Development
 + 🚀 Vibe: Build. Break. Learn.
 + 🔧 Stack: Node.js | TypeScript | Java | SQL
 ! ⚡ Mood: Always coding
 - 😴 Status: Sleep is overrated
-```
-
-<br>
-
-```diff
-@@ CURRENT MISSION @@
-! Mastering REST APIs
-! Deep diving into PostgreSQL
-+ Writing clean, scalable code
 ```
 
 </td>
@@ -135,16 +131,6 @@ console.log(`> Connecting with ${developer.🆔}...`);
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GabrielSantana0/GabrielSantana0/output/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/GabrielSantana0/GabrielSantana0/output/github-contribution-grid-snake-dark.svg" />
 </picture>
-</div>
-
----
-
-<!-- =============================================== -->
-<!-- TROPHIES                                        -->
-<!-- =============================================== -->
-<h2 align="center">🏆 UNLOCKED ACHIEVEMENTS</h2>
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=GabrielSantana0&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1&column=7" />
 </div>
 
 ---
