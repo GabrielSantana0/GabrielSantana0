@@ -53,7 +53,7 @@ const developer = {
     workMode: ["Remote", "Hybrid", "On-site"]
   },
   🧠: {
-    learning: ["Node.js", "TypeScript", "PostgreSQL"],
+    learning: ["Node.js", "TypeScript", "Java", "PostgreSQL"],
     nextMission: "Master back-end architecture"
   }
 };
@@ -67,7 +67,7 @@ console.log(`> Connecting with ${developer.🆔}...`);
 ```diff
 + 🎯 Focus: Back-End Development
 + 🚀 Vibe: Build. Break. Learn.
-+ 🔧 Stack: Node.js | TypeScript | SQL
++ 🔧 Stack: Node.js | TypeScript | Java | SQL
 ! ⚡ Mood: Always coding
 - 😴 Status: Sleep is overrated
 ```
@@ -88,16 +88,6 @@ console.log(`> Connecting with ${developer.🆔}...`);
 ---
 
 <!-- =============================================== -->
-<!-- JOKE OF THE DAY                                 -->
-<!-- =============================================== -->
-<h2 align="center">🎭 JOKE OF THE DAY</h2>
-<div align="center">
-<img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder=true" alt="Jokes Card" />
-</div>
-
----
-
-<!-- =============================================== -->
 <!-- TECH ARSENAL                                    -->
 <!-- =============================================== -->
 <h2 align="center">⚔️ TECH ARSENAL</h2>
@@ -108,21 +98,11 @@ console.log(`> Connecting with ${developer.🆔}...`);
 <img src="https://skillicons.dev/icons?i=html,css,js,tailwind&perline=7" />
 
 ### ⚙️ Back-end
-<img src="https://skillicons.dev/icons?i=nodejs,express,ts,postgres&perline=7" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,ts,java,postgres&perline=7" />
 
 ### 🧰 Tools & Deploy
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel&perline=7" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,insomnia,vercel&perline=7" />
 
-</div>
-
----
-
-<!-- =============================================== -->
-<!-- DEV PHILOSOPHY                                  -->
-<!-- =============================================== -->
-<h2 align="center">💭 DEV PHILOSOPHY</h2>
-<div align="center">
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
 </div>
 
 ---
@@ -150,7 +130,11 @@ console.log(`> Connecting with ${developer.🆔}...`);
 <!-- =============================================== -->
 <h2 align="center">🐍 CONTRIBUTION SNAKE</h2>
 <div align="center">
-<img src="https://raw.githubusercontent.com/GabrielSantana0/GabrielSantana0/output/github-contribution-grid-snake-dark.svg" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GabrielSantana0/GabrielSantana0/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GabrielSantana0/GabrielSantana0/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/GabrielSantana0/GabrielSantana0/output/github-contribution-grid-snake-dark.svg" />
+</picture>
 </div>
 
 ---

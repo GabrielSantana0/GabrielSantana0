@@ -8,12 +8,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Generate Snake Game from GitHub Contribution Graph
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: GabrielSantana0
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
+            dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push to output branch
